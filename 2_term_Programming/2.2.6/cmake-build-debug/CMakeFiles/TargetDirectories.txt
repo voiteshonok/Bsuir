@@ -1,0 +1,3 @@
+D:/2_term_programming/2.2.6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/2_term_programming/2.2.6/cmake-build-debug/CMakeFiles/2_2_6.dir
+D:/2_term_programming/2.2.6/cmake-build-debug/CMakeFiles/edit_cache.dir

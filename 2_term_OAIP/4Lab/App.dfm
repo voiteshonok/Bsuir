@@ -1,0 +1,192 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'OPZ'
+  ClientHeight = 304
+  ClientWidth = 519
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 33
+    Width = 13
+    Height = 16
+    Caption = 'A:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 73
+    Width = 12
+    Height = 16
+    Caption = 'B:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 121
+    Width = 13
+    Height = 16
+    Caption = 'C:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 47
+    Top = 217
+    Width = 12
+    Height = 16
+    Caption = 'E:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 48
+    Top = 169
+    Width = 13
+    Height = 16
+    Caption = 'D:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 240
+    Top = 57
+    Width = 66
+    Height = 16
+    Caption = 'Expression:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 250
+    Top = 97
+    Width = 59
+    Height = 16
+    Caption = 'PostForm:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 266
+    Top = 145
+    Width = 40
+    Height = 16
+    Caption = 'Result:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object AEdit: TEdit
+    Left = 72
+    Top = 32
+    Width = 89
+    Height = 21
+    TabOrder = 0
+    OnChange = AEditChange
+  end
+  object BEdit: TEdit
+    Left = 72
+    Top = 72
+    Width = 89
+    Height = 21
+    TabOrder = 1
+    OnChange = BEditChange
+  end
+  object CEdit: TEdit
+    Left = 72
+    Top = 120
+    Width = 89
+    Height = 21
+    TabOrder = 2
+    OnChange = CEditChange
+  end
+  object EEdit: TEdit
+    Left = 72
+    Top = 216
+    Width = 89
+    Height = 21
+    TabOrder = 3
+    OnChange = EEditChange
+  end
+  object DEdit: TEdit
+    Left = 72
+    Top = 168
+    Width = 89
+    Height = 21
+    TabOrder = 4
+    OnChange = DEditChange
+  end
+  object InfEdit: TEdit
+    Left = 320
+    Top = 56
+    Width = 145
+    Height = 21
+    TabOrder = 5
+  end
+  object CulculateButton: TButton
+    Left = 352
+    Top = 198
+    Width = 75
+    Height = 25
+    Caption = 'Culculate'
+    TabOrder = 6
+    OnClick = CulculateButtonClick
+  end
+  object postForm: TListBox
+    Left = 320
+    Top = 97
+    Width = 145
+    Height = 24
+    ItemHeight = 13
+    TabOrder = 7
+  end
+  object result: TListBox
+    Left = 320
+    Top = 145
+    Width = 145
+    Height = 24
+    ItemHeight = 13
+    TabOrder = 8
+  end
+end
