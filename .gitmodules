@@ -1,0 +1,9 @@
+[submodule "4_term_ISP"]
+	path = 4_term_ISP
+	url = https://github.com/voiteshonok/4_term_ISP.git
+[submodule "5_term_IGI"]
+	path = 5_term_IGI
+	url = https://github.com/voiteshonok/5_term_IGI.git
+[submodule "5-term-PPO"]
+	path = 5-term-PPO
+	url = https://github.com/voiteshonok/5-term-PPO.git
